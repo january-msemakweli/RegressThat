@@ -15,7 +15,7 @@ affiliations:
   - name: Muhimbili University of Health and Allied Sciences, School of Public Health and Social Sciences, Department of Environmental and Occupational Health, Tanzania
     index: 1
 date: 3 September 2024
-bibliography: joss/references.bib
+bibliography: references.bib
 
 ---
 
