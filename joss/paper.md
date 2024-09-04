@@ -35,10 +35,6 @@ R is a powerful statistical computing language and environment [@R-core-team2020
 
 **RegressThat** offers a simple and intuitive interface for performing regression analysis. Users can upload datasets in various formats (`.sav`, `.dta`, `.xls`, `.xlsx`, `.dat`, `.csv`, `.rdata`, `.RData`), select variables for analysis, and choose the type of regression to perform. The application executes the regression analysis and presents the results clearly and understandably. Additionally, the application generates diagnostic plots, including Residuals vs Fitted, Normal Q-Q, Scale-Location, and Residuals vs Leverage plots. The estimates in the app are Odds ratios or Risk Ratios depending on the analysis performed.
 
-![Data Preview Tab](https://github.com/january-msemakweli/RegressThat/blob/main/joss/Figures/Data%20Preview.PNG)
-
-![Regression Output Tab](https://github.com/january-msemakweli/RegressThat/blob/main/joss/Figures/Regression%20Results.PNG)
-
 # Conclusion
 
 **RegressThat** is a valuable tool for anyone needing to perform regression analysis. By simplifying the process and providing a user-friendly interface, **RegressThat** makes regression analysis more accessible to a wider audience.
