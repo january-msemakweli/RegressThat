@@ -27,6 +27,8 @@ To run the application, use the following steps:
 
 ```r
 shiny::runApp("app.R")
+
+
 ## Using the App
 - **Upload Data**: Use the "Choose a Data File" button to upload your dataset.
 - **Select Variables**: Choose the outcome, predictor, and optional adjustment variables from the dropdown menus.
