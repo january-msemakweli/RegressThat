@@ -19,17 +19,17 @@ bibliography: references.bib
 
 ---
 
-# Abstract
+# Summary
 
-**RegressThat** is an R Shiny web application designed to simplify and streamline the process of performing regression analysis. The application allows users to upload datasets in various formats and select variables for analysis. Users can choose between Logistic Regression and Modified Poisson Regression with Robust Measures. The application provides a user-friendly interface for data input, variable selection, and viewing of analysis results and diagnostic plots. 
+**RegressThat** is an R Shiny web application designed to simplify and streamline the process of performing regression analysis  [@R-core-team2020][Chang2022]. The application allows users to upload datasets in various formats and select variables for analysis. Users can choose between Logistic Regression and Modified Poisson Regression with Robust Measures . The application provides a user-friendly interface for data input, variable selection, and viewing of analysis results and diagnostic plots. 
 
 # Introduction
 
-Regression analysis is a powerful statistical tool used to understand relationships between variables. However, performing regression analysis can be complex and time-consuming, especially for those without a strong statistical background. **RegressThat** aims to make regression analysis more accessible by providing a user-friendly web application that simplifies the process.
+R is a powerful statistical computing language and environment [@R-core-team2020]. Regression analysis is a powerful statistical tool used to understand relationships between variables [Liaw2002]. However, performing regression analysis can be complex and time-consuming, especially for those without a strong statistical background. **RegressThat** aims to make regression analysis more accessible by providing a user-friendly web application that simplifies the process.
 
 # Methods
 
-**RegressThat** is built using the R Shiny framework, which allows for the creation of interactive web applications directly from R. The application leverages several R packages, including `shiny`, `shinyWidgets`, `broom`, `dplyr`, `readr`, `readxl`, `haven`, `foreign`, `textshaping`, `survey`, and `caret`. These packages facilitate data input, perform regression analysis, and generate diagnostic plots.
+**RegressThat** is built using the R Shiny framework, which allows for the creation of interactive web applications directly from R. The application leverages several R packages, including `shiny`, `shinyWidgets`, `broom`, `dplyr`, `readr`, `readxl`, `haven`, `foreign`, `textshaping`, `survey`, and `caret` [Wickham2019]. These packages facilitate data input, perform regression analysis, and generate diagnostic plots.
 
 # Results
 
