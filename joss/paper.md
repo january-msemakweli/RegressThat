@@ -19,11 +19,11 @@ bibliography: references.bib
 
 ---
 
-# Summary
+# Introduction
 
 **RegressThat** is an R Shiny web application designed to simplify and streamline the process of performing regression analysis  [@R-core-team2020][Chang2022]. The application allows users to upload datasets in various formats and select variables for analysis. Users can choose between Logistic Regression and Modified Poisson Regression with Robust Measures . The application provides a user-friendly interface for data input, variable selection, and viewing of analysis results and diagnostic plots. 
 
-# Introduction
+# Statement of need
 
 R is a powerful statistical computing language and environment [@R-core-team2020]. Regression analysis is a powerful statistical tool used to understand relationships between variables [Liaw2002]. However, performing regression analysis can be complex and time-consuming, especially for those without a strong statistical background. **RegressThat** aims to make regression analysis more accessible by providing a user-friendly web application that simplifies the process.
 
@@ -34,6 +34,9 @@ R is a powerful statistical computing language and environment [@R-core-team2020
 # Results
 
 **RegressThat** offers a simple and intuitive interface for performing regression analysis. Users can upload datasets in various formats (`.sav`, `.dta`, `.xls`, `.xlsx`, `.dat`, `.csv`, `.rdata`, `.RData`), select variables for analysis, and choose the type of regression to perform. The application executes the regression analysis and presents the results clearly and understandably. Additionally, the application generates diagnostic plots, including Residuals vs Fitted, Normal Q-Q, Scale-Location, and Residuals vs Leverage plots. The estimates in the app are Odds ratios or Risk Ratios depending on the analysis performed.
+
+![Regression Diagnostic Plots](joss/Figures/Plots.PNG)
+![Regression Results](joss/Figures/Regression Results.PNG)
 
 # Conclusion
 
